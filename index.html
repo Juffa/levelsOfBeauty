@@ -23,16 +23,19 @@
           <main class="container-fluid"  id="container">
 <!--justify-content-center d-flex-->
             <div class="logo transform justify-content-center d-flex" onclick="start()">
-              <div class="" >
-                <img class="svg img-fluid transform " src="LevelsOfBeauty.svg" >
-              </div>
+
+                <img class="svg img-fluid" src="LevelsOfBeauty.svg" >
+
             </div>
 
 
             <div class="album py-5 collapse" id="content">
               <div class="container-fluid">
-                <div class="row" id="row">
-
+               <!-- <div class="row" id="row"> -->
+                  <a href="#hinnasto" data-toggle="collapse" data-target="#hinnasto" class="btn btn-primary stretched-link">Hinnasto</a>
+                  <div class="collapse" id="hinnasto">
+                    <img class="card-img-top png" src="Hinnasto_web.png" data-toggle="collapse" data-target="#hinnasto" alt="Card image" style="width:100%">
+                  </div>
 
 
                   <div class="col-md-12 projectCard" id="Liike">
@@ -42,14 +45,14 @@
                       <h4 class="card-title">Tähän panoraamakuva liikkeestä sisältä tämän kuvan paikalle?</h4>
                       <a href="#hinnasto" data-toggle="collapse" data-target="#hinnasto" class="btn btn-primary stretched-link">Hinnasto</a>
                       <div class="collapse" id="hinnasto">
-                        <img class="card-img-top png" src="Hinnasto_web.png" alt="Card image" style="width:100%">
+                        <img class="card-img-top png" src="Hinnasto_web.png" data-toggle="collapse" data-target="#hinnasto" alt="Card image" style="width:100%">
                       </div>
 
                       </div>
                     </div>
                   </div>
 
-                </div><!--row-->
+                <!--</div> --row-->
                 <div class="row">
 
                   <div class="col-md-3 projectCard" id="Henkilö1">
@@ -157,7 +160,7 @@
         if($('#content').is(":hidden")){
         $('.transform').toggleClass('transform-active');
         $('#content').show();
-        //$('.logo').addClass("attop");
+        //$('.logo').addClass("fixed-top");
         }
 
 
