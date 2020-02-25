@@ -89,3 +89,7 @@ html{
     background-color:#444444;
     border-color:#333333;
 }
+
+.modal-lg{
+    max-width: 1400px;
+}
