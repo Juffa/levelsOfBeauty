@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Levels Of Beauty">
+    <meta name="author" content="JKK">
 
 
         <!-- Bootstrap core CSS -->
@@ -24,34 +24,58 @@
 <!--justify-content-center d-flex-->
             <div class="logo transform justify-content-center d-flex" onclick="start()">
 
-                <img class="svg img-fluid" src="LevelsOfBeauty.svg" >
+                <img class="svg img-fluid" src="LevelsOfBeauty_minilogo.svg" >
 
             </div>
 
 
-            <div class="album py-5 collapse" id="content">
+            <div class="album collapse" id="content">
               <div class="container-fluid">
-               <!-- <div class="row" id="row"> -->
+                <div class="row" id="row"> 
                   
 
 
-                  <div class="col-md-12 projectCard" id="Liike">
-                    <div class="card mb-4 shadow-sm bg-dark">
-                    <img class="card-img-top" src="LB_ulko.jpg" alt="Card image" style="width:100%">
+                  <div class="col-md-12 projectCard" id="isologo">
+                    <div class="card mb-4 shadow-sm bg-black ">
+                    <img class="card-img-top svg" src="LevelsOfBeauty.svg" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
-                      <h4 class="card-title">Tähän panoraamakuva liikkeestä sisältä tämän kuvan paikalle? Jotain esittelyä?</h4>
+                      <h4 class="card-title"></h4>
                       
                       </div>
                     </div>
                   </div>
 
-                <!--</div> --row-->
+                </div> <!--row-->
                 <div class="row">
 
 
 
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="liike">
+                    <div class="card mb-4 shadow-sm bg-dark">
+                    <img class="card-img-top " src="LB_ulko.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body lb-text">
+                      <h4 class="card-title">Liike</h4>
+                      <p class="card-text">Tähän panoraamakuva liikkeestä sisältä tämän kuvan paikalle? Jotain esittelyä?</p>
+                      
+                      </div>
+                    </div>
+                  </div>
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="cici">
+
+                  <div class="col-md-3 col-sm-6 col-6 projectCard">
+                    <div class="card mb-4 shadow-sm bg-dark">
+                      <img class="card-img-top png" src="Hinnasto_teksti.png" alt="Hinnasto" style="width:100%" data-toggle="modal" data-target="#Hinnasto-popup">
+                      <div class="card-body lb-text">
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div> <!--row-->
+                <div class="row">
+                  
+
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="cici">
                     <div class="card mb-4 shadow-sm bg-dark">
                     <img class="card-img-top " src="Cici.png" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
@@ -63,7 +87,7 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="lila">
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="lila">
                     <div class="card mb-4 shadow-sm bg-dark">
                     <img class="card-img-top " src="Lila.png" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
@@ -75,7 +99,7 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="paula">
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="paula">
                     <div class="card mb-4 shadow-sm bg-dark">
                     <img class="card-img-top png" src="Paula.png" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
@@ -87,7 +111,7 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="riina">
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="riina">
                     <div class="card mb-4 shadow-sm bg-dark">
                     <img class="card-img-top png" src="Riina.jpeg" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
@@ -99,7 +123,7 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="salonvictoria">
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="salonvictoria">
                     <div class="card mb-4 shadow-sm bg-dark">
                     <img class="card-img-top png" src="SalonVictoria.png" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
@@ -111,9 +135,9 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard" id="twister">
+                  <div class="col-md-3 col-sm-6 col-6 projectCard" id="twister">
                     <div class="card mb-4 shadow-sm bg-dark">
-                    <img class="card-img-top " src="twister.png" alt="Card image" style="width:100%">
+                    <img class="card-img-top " src="Twister.png" alt="Card image" style="width:100%">
                     <div class="card-body lb-text">
                       <h4 class="card-title">Twister</h4>
                       <p class="card-text">Twisterissä hoituu hiusasiat kuntoon!</p>
@@ -123,15 +147,9 @@
                   </div>
 
 
-                  <div class="col-md-3 col-sm-4 projectCard">
-                    <div class="card mb-4 shadow-sm bg-dark">
-                      <img class="card-img-top png" src="Hinnasto_teksti.png" alt="Hinnasto" style="width:100%" data-toggle="modal" data-target="#Hinnasto-popup">
-                      <div class="card-body lb-text">
-                      </div>
-                    </div>
-                  </div>
 
-                 <div class="col-md-3 col-sm-4 projectCard " id="kartta">
+
+                 <div class="col-md-3 col-sm-6 col-6 projectCard " id="kartta">
                     <div class="card mb-4 shadow-sm bg-dark ">
                       <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="card-img-top embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.8203180268551!2d24.85523981625593!3d60.6296075131315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e0ee199483bc9%3A0x52a3d6833922264a!2sUudenmaankatu%201%2C%2005800%20Hyvink%C3%A4%C3%A4!5e0!3m2!1sfi!2sfi!4v1582571807768!5m2!1sfi!2sfi"  height="310" width="310"  allowfullscreen=""></iframe>

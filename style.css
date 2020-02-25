@@ -12,18 +12,19 @@ html{
 
 .logo{
    height:100%;
+   width="800px"
   /* background-color:#333333;*/
-   
+
     
 }
 
 
 .svg{
-    filter: saturate(100%) brightness(500%);
+    filter: saturate(100%) brightness(1500%);
 }
 
 .png{
-    filter: invert(15%);
+    filter: invert(0%);
 }
 
 #container{
@@ -33,6 +34,7 @@ html{
  #content{
      background:#111111;
      margin-top:50px;
+ 
  }
 
  .bg-black{
@@ -73,7 +75,8 @@ html{
 
   .transform-active {
    
-    height: 20%;
+    height: 0%;
+    filter: saturate(100%) brightness(0%);
     
   }
 
