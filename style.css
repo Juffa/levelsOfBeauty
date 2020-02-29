@@ -10,14 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.logo{
-   height:100%;
-   width:100%;
-   
-  /* background-color:#333333;*/
 
-    
-}
 
 
 .svg{
@@ -65,8 +58,20 @@ html{
     background-color:#111111;
 }
 
+.logo{
+    width:100%;
+    object-fit: scale-down;
+   
+  /* background-color:#333333;*/
+
+    
+}
 
 .transform {
+   
+    height:100%;
+
+
     -webkit-transition: all 1s ease;  
     -moz-transition: all 1s ease;  
     -o-transition: all 1s ease;  
@@ -77,6 +82,7 @@ html{
   .transform-active {
    
     height: 0%;
+    
     filter: saturate(100%) brightness(0%);
     
   }
