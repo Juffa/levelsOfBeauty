@@ -4,6 +4,8 @@ html, body{
     background-color: #111111;
     height: 100%;
     margin: 0px;
+    color:white;
+    
 
 }
 html{
@@ -65,6 +67,10 @@ html{
   /* background-color:#333333;*/
 
     
+}
+
+#vali{
+    margin-bottom:0px;
 }
 
 .transform {
