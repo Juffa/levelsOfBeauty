@@ -1,7 +1,7 @@
 
 
 html, body{
-    background-color: #111111;
+    
     height: 100%;
     margin: 0px;
     color:white;
@@ -29,8 +29,8 @@ html{
     height:100%;
 }
  #content{
-     background:#111111;
-     margin-top:50px;
+    /* background:#111111;*/
+     
  
  }
 
@@ -38,12 +38,22 @@ html{
     background-color: #111111;
  }
 
+ .bg-black2{
+    background-color: #222222;
+ }
+
+ .card{
+    margin-top:6em;
+    
+    border-color:white;
+ }
+
  .lb-text{
      color:#D6D7D1;
  }
 
  .navbar,.navbar-dark{
-     height:50px;
+     height:6rem;
      width:100%;
      padding-top:0;
      padding-bottom:0;
@@ -52,27 +62,52 @@ html{
  }
 
 
+
  .fixed-top{
      padding-left:0;
      margin-left:0;
      
  }
-.navbar-custom{
-    background-color:#111111;
+
+
+
+#nav {
+   /* text-align:center; */
+
+    
+   /* background-color: #444444;*/
+    z-index: 10000;
 }
+ 
+.nav-appear{
+    /* height:5em; */
+    -webkit-transition: all 1s ease;  
+    -moz-transition: all 1s ease;  
+    -o-transition: all 1s ease;  
+    -ms-transition: all 1s ease;  
+    transition: all 1s ease;
+}
+
+
+
+
 
 .logo{
     width:100%;
     object-fit: scale-down;
    
-  /* background-color:#333333;*/
-
-    
+  /* background-color:#333333;*/  
 }
+
 
 #vali{
-    margin-bottom:0px;
+    margin-bottom:10px;
 }
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+ }
 
 .transform {
    
@@ -107,6 +142,11 @@ html{
     border-color:#333333;
 }
 
+
 .modal-lg{
     max-width: 1400px;
+}
+
+.modal {
+    z-index: 10001;
 }
