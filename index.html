@@ -30,31 +30,31 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav mx-auto bg-black2" >
             <li class="nav-item">
-              <a class="nav-link" href="#liike"><img class="png logo" src="LevelsOfBeauty_minilogo.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#liike" onclick="closeNavCollapse()" ><img class="png logo" src="LevelsOfBeauty_minilogo.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#twister"><img class="png logo" src="twister3d.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#twister" onclick="closeNavCollapse()"><img class="png logo" src="Twister3d.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#cici" ><img class="png logo" src="Cici2.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#cici" onclick="closeNavCollapse()"><img class="png logo" src="Cici2.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#paula"><img class="png logo" src="Paula_bw2.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#paula" onclick="closeNavCollapse()"><img class="png logo" src="Paula_bw2.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#salonvictoria"><img class="png logo" src="SalonVictoria_w.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#salonvictoria" onclick="closeNavCollapse()"><img class="png logo" src="SalonVictoria_w.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#lila"><img class="png logo" src="Lila_bw2.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#lila" onclick="closeNavCollapse()"><img class="png logo" src="Lila_bw2.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#riina"><img class="png logo" src="Riina_w.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#riina" onclick="closeNavCollapse()"><img class="png logo" src="Riina_w.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#bhbc"><img class="png logo" src="Bhbc.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#bhbc" onclick="closeNavCollapse()"><img class="png logo" src="Bhbc.png" alt="" style="max-height:5em"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#liike"><img class="png logo" src="LevelsOfBeauty_minilogo.png" alt="" style="max-height:5em"></a>
+              <a class="nav-link" href="#liike" onclick="closeNavCollapse()"><img class="png logo" src="LevelsOfBeauty_minilogo.png" alt="" style="max-height:5em"></a>
             </li>
           </ul>
           
@@ -553,6 +553,10 @@
        // $('.logo').hide(); //.toggleClass('transform-active');
         
           console.log("test");
+      }
+
+      function closeNavCollapse(){
+        $('.navbar-collapse').collapse('hide');
       }
     </script>
        
